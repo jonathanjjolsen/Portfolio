@@ -1,6 +1,7 @@
 :root {
     --Blue: #92ccce;
     --DrkGry: #31343d;
+    --Navy: #445877;
 }
 
 * {
@@ -86,4 +87,30 @@ a:visited {
    top: 80%;
    right: 2%;
    padding: 5px; 
+}
+
+/* About Me Info */
+.About {
+    display: flex;
+    position: relative
+}
+
+.About h2{
+    display:flex;
+    font-size: 40px;
+    color: var(--Navy);
+    text-align: end;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-right: 1%;
+    border-right: solid;
+
+}
+
+.About li {
+    display: flex;
+    color: var(--Navy);
+    margin-top: 3%;
+    line-height: 20px;
+    padding-right: 60px;
 }
