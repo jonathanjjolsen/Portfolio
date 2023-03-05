@@ -114,3 +114,102 @@ a:visited {
     line-height: 20px;
     padding-right: 60px;
 }
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Work h2 {
+    display:flex;
+    font-size: 40px;
+    color: var(--Navy);
+    text-align: end;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-right: 1%;
+    border-right: solid;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.SurfPic {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+    margin-bottom: 1.5%;
+}
+
+.surfing {
+    float: left;
+    position: absolute;
+    top: 1150px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.surfing p:first-of-type {
+    font-size: 25px;
+}
+
+.LEDPic {
+    display: flex;
+    position: relative;
+    width: 50%;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+    margin-bottom: 1.5%;
+}
+
+.LED {
+    float: left;
+    position: absolute;
+    top: 1500px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.LED p:first-of-type {
+    font-size: 25px;
+}
+
+.Calcpic {
+    display: flex;
+    position: relative;
+    width: 50%;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+    margin-bottom: 1.5%;
+}
+
+.Calc {
+    float: left;
+    position: absolute;
+    top: 1500px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.Calc p:first-of-type {
+    font-size: 25px;
+}
+
+
+
+
+
