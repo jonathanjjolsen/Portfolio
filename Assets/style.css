@@ -56,7 +56,6 @@ nav ul li {
 } 
 
 a {
-    text-decoration: none;
     font-size: 20px;
 }
 a:visited {
@@ -97,6 +96,7 @@ a:visited {
 
 .About h2{
     display:flex;
+    flex: 0, 0, 25%;
     font-size: 40px;
     color: var(--Navy);
     text-align: end;
@@ -122,6 +122,7 @@ section {
 
 .Work h2 {
     display:flex;
+    flex: 0, 0, 25%;
     font-size: 40px;
     color: var(--Navy);
     text-align: end;
@@ -213,3 +214,55 @@ section {
 
 
 
+
+
+
+
+
+
+
+/* Contact Me Attributes*/
+
+.Contact {
+    display: flex;
+
+}
+
+footer h2 {
+    display:flex;
+    flex: 0, 0, 25%;
+    font-size: 40px;
+    color: var(--Navy);
+    text-align: end;
+    margin-left: 21px;
+    margin-top: 3%;
+    padding-right: 1%;
+    border-right: solid;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    display: flex;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    color: var(--Navy);
+    text-decoration: underline;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+footer ul li {
+    
+    font-size: 20px;
+}
+footer ul li a:visited {
+    color: #51D6D6;
+}
+    
