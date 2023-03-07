@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     background-color: var(--DrkGry);
     width:100%;
-    height: 50px;
+    height: 75px;
     
 }
 
@@ -28,7 +28,7 @@ h1 {
     padding-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 35px;
     align-items: center;
     white-space: nowrap;
 }
@@ -38,7 +38,7 @@ h1 {
 
 nav ul {
     display: flex;
-    padding-top: 3%;
+    padding-top: 5%;
     margin-right: 30px;
 }
 
@@ -61,6 +61,9 @@ a {
 a:visited {
     color: #51D6D6;
 }
+
+
+
 
 /* Big Photo */
 
@@ -91,122 +94,203 @@ a:visited {
 /* About Me Info */
 .About {
     display: flex;
-    position: relative
+    position: relative;
+    margin-top: 5%;
 }
 
 .About h2{
-    display:flex;
-    flex: 0, 0, 25%;
     font-size: 40px;
+    flex: 0 0 10%;
+    padding-right: 1%;
     color: var(--Navy);
     text-align: end;
-    margin-left: 10%;
-    margin-top: 3%;
-    padding-right: 1%;
     border-right: solid;
-
 }
 
 .About li {
     display: flex;
     color: var(--Navy);
-    margin-top: 3%;
+    margin-top: 0.5%;
     line-height: 20px;
     padding-right: 60px;
 }
 
-section {
+.Work {
     display: flex;
     flex-wrap: nowrap;
+    margin-top: 5%;
 }
 
 .Work h2 {
-    display:flex;
-    flex: 0, 0, 25%;
     font-size: 40px;
+    flex: 0 0 10%;
+    padding-right: 1%;
     color: var(--Navy);
     text-align: end;
-    margin-left: 10%;
-    margin-top: 3%;
-    padding-right: 1%;
     border-right: solid;
 }
 
-.examples {
+.Column {
     display: flex;
-    flex-wrap: wrap;
-    padding: 60px;
-    align-items: center;
-    justify-content: space-between;
-
+    flex-flow: column;
 }
 
+
+
+
+
+
+/*First Row Picture*/
+.FirstRow {
+    display: flex;
+    padding: 5%;
+    padding-top: 0.5%;
+}
+
+.SurfCard {
+    position: relative;
+}
 .SurfPic {
+    /* display: flex; */
+    position: relative;
+    width: 100%;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+}
+
+.SurfText {
+    float: left;
+    position: absolute;
+    bottom: 100px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.SurfText p:first-of-type {
+    font-size: 25px;
+}
+
+/*Second Row of Pictures*/
+
+.SecondRow {
+    display: flex;
+    flex-flow: row;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.LEDCard {
+    display: flex;
+    position: relative;
+    flex: 1 0 0;
+}
+.LEDPic {
     display: flex;
     position: relative;
     width: 100%;
     border: solid;
     border-color: #51D6D6;
     border-width: thick;
-    margin-bottom: 1.5%;
 }
 
-.surfing {
+.LEDText {
     float: left;
     position: absolute;
-    top: 1150px;
+    bottom: 50px;
     background: var(--Blue);
     color: var(--DrkGry);
     padding: 1%;
 }
 
-.surfing p:first-of-type {
+.LEDText p:first-of-type {
     font-size: 25px;
 }
 
-.LEDPic {
+.CalcCard {
     display: flex;
     position: relative;
-    width: 50%;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
-    margin-bottom: 1.5%;
-}
-
-.LED {
-    float: left;
-    position: absolute;
-    top: 1500px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.LED p:first-of-type {
-    font-size: 25px;
+    flex: 1 0 0;
 }
 
 .Calcpic {
     display: flex;
     position: relative;
-    width: 50%;
     border: solid;
     border-color: #51D6D6;
     border-width: thick;
-    margin-bottom: 1.5%;
 }
 
-.Calc {
+.CalcText {
     float: left;
     position: absolute;
-    top: 1500px;
+    bottom: 50px;
     background: var(--Blue);
     color: var(--DrkGry);
     padding: 1%;
 }
 
-.Calc p:first-of-type {
+.CalcText p:first-of-type {
+    font-size: 25px;
+}
+
+/*Third Row of Pictures*/
+.ThirdRow {
+    display: flex;
+    flex-flow: row;
+}
+
+.PuzzleCard {
+    position: relative;
+}
+
+.PuzzlePic {
+    display: flex;
+    position: relative;
+    flex: 1 0 0;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+
+}
+
+.PuzzleText {
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.PuzzleText p:first-of-type {
+    font-size: 25px;
+}
+
+.RunCard {
+    position: relative;
+}
+
+.RunPic {
+    display: flex;
+    position: relative;
+    flex: 1 0 0;
+    border: solid;
+    border-color: #51D6D6;
+    border-width: thick;
+}
+
+.RunText {
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    background: var(--Blue);
+    color: var(--DrkGry);
+    padding: 1%;
+}
+
+.RunText p:first-of-type {
     font-size: 25px;
 }
 
@@ -225,24 +309,24 @@ section {
 
 .Contact {
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 
 footer h2 {
-    display:flex;
-    flex: 0, 0, 25%;
     font-size: 40px;
+    flex: 0 0 10%;
     color: var(--Navy);
     text-align: end;
-    margin-left: 21px;
-    margin-top: 3%;
-    padding-right: 1%;
     border-right: solid;
+    padding-right: 1%;
 }
 
 footer ul {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 footer ul li {
@@ -252,17 +336,17 @@ footer ul li {
     font-family: 'Trebuchet MS';
     color: var(--Navy);
     text-decoration: underline;
+    text-align: center;
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
-
 }
 
 footer ul li {
-    
     font-size: 20px;
+    padding-top: 3%;
+    padding-right: 10%;
 }
 footer ul li a:visited {
-    color: #51D6D6;
+    color: var(--Navy);
 }
-    
