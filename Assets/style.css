@@ -152,6 +152,12 @@ a:visited {
     border: 5px solid #51D6D6;
 }
 
+.SurfText {
+    position: absolute;
+    background-color: #51D6D6;
+    padding: 1%;
+}
+
 #secondRow {
     display: flex;
     flex-direction: row;
@@ -163,12 +169,14 @@ a:visited {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding: 2%;
 }
 
 .CalcCard {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding: 2%;
 }
 
 #ThirdRow {
@@ -182,22 +190,26 @@ a:visited {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding: 2%;
 }
 
 .RunCard {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding: 2%;
 }
 
 .workPic{
     width: 100%;
     /* object-fit: fill; */
-    padding: 5%;
+    border: 5px solid #51D6D6;
 }
 
 .caption {
     position: absolute;
+    background-color: #51D6D6;
+    padding: 1%;
 }
 /* Contact Me Attributes*/
 
@@ -253,5 +265,16 @@ footer ul li a:visited {
     #ThirdRow {
         flex-direction: column;
         justify-content: center;
+    }
+    #navUL {
+        display: flex;
+        flex-direction: column;
+    }
+    #footerUL {
+        display: flex;
+        flex-direction: column;
+    }
+    .SurfPic {
+        width: 40%;
     }
   }
