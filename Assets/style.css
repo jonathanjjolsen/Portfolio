@@ -137,11 +137,6 @@ a:visited {
     flex-flow: column;
 }
 
-
-
-
-
-
 /*First Row Picture*/
 .FirstRow {
     display: flex;
@@ -167,7 +162,8 @@ a:visited {
 .SurfText {
     float: left;
     position: absolute;
-    bottom: 100px;
+    left: 370px;
+    bottom: 20px;
     background: var(--Blue);
     color: var(--DrkGry);
     padding: 1%;
@@ -184,20 +180,23 @@ a:visited {
     flex-flow: row;
     padding: 5%;
     padding-top: 0;
+    justify-content: space-between;
 }
 
 .LEDCard {
     display: flex;
     position: relative;
-    flex: 1 0 0;
+    width: 50%;
+    justify-content: center;
 }
 .LEDPic {
     display: flex;
     position: relative;
-    width: 100%;
+    width: 60%;
     border: solid;
     border-color: #51D6D6;
     border-width: thick;
+    object-fit: cover;
 }
 
 .LEDText {
@@ -216,8 +215,7 @@ a:visited {
 .CalcCard {
     display: flex;
     position: relative;
-    flex: 1 0 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .Calcpic {
@@ -245,20 +243,22 @@ a:visited {
 .ThirdRow {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .PuzzleCard {
+    display: flex;
     position: relative;
+    justify-content: center;
 }
 
 .PuzzlePic {
     display: flex;
     position: relative;
-    flex: 1 0 0;
     border: solid;
     border-color: #51D6D6;
     border-width: thick;
-
 }
 
 .PuzzleText {
@@ -275,13 +275,14 @@ a:visited {
 }
 
 .RunCard {
+    display: flex;
     position: relative;
+    justify-content: center;
 }
 
 .RunPic {
     display: flex;
     position: relative;
-    flex: 1 0 0;
     border: solid;
     border-color: #51D6D6;
     border-width: thick;
@@ -299,17 +300,6 @@ a:visited {
 .RunText p:first-of-type {
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Contact Me Attributes*/
 
@@ -356,3 +346,24 @@ footer ul li {
 footer ul li a:visited {
     color: var(--Navy);
 }
+
+@media only screen and (max-width: 1874px) {
+    .ThirdRow {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .SecondRow {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .LEDCard {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .PuzzleCard {
+        padding-bottom: 5%;
+    }
+    img {
+        width: 50%;
+    }
+  }
