@@ -134,171 +134,35 @@ a:visited {
 
 .Column {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*First Row Picture*/
-.FirstRow {
-    display: flex;
-    padding: 5%;
-    padding-top: 0.5%;
-}
 
 .SurfCard {
     display: flex;
-    position: relative;
-    justify-content: center;
-}
-
-.SurfPic {
-    position: relative;
     width: 100%;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.SurfPic{
     width: 50%;
 }
 
-.SurfText {
-    float: left;
-    position: absolute;
-    left: 370px;
-    bottom: 20px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.SurfText p:first-of-type {
-    font-size: 25px;
-}
-
-/*Second Row of Pictures*/
-
-.SecondRow {
+#secondRow {
     display: flex;
-    flex-flow: row;
-    padding: 5%;
-    padding-top: 0;
+    flex-direction: row;
     justify-content: space-between;
+    width: 75%;
 }
 
-.LEDCard {
+#ThirdRow {
     display: flex;
-    position: relative;
-    width: 50%;
-    justify-content: center;
-}
-.LEDPic {
-    display: flex;
-    position: relative;
-    width: 60%;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
-    object-fit: cover;
-}
-
-.LEDText {
-    float: left;
-    position: absolute;
-    bottom: 50px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.LEDText p:first-of-type {
-    font-size: 25px;
-}
-
-.CalcCard {
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-
-.Calcpic {
-    display: flex;
-    position: relative;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
-}
-
-.CalcText {
-    float: left;
-    position: absolute;
-    bottom: 50px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.CalcText p:first-of-type {
-    font-size: 25px;
-}
-
-/*Third Row of Pictures*/
-.ThirdRow {
-    display: flex;
-    flex-flow: row;
+    flex-direction: row;
     justify-content: space-between;
-    width: 80%;
-}
-
-.PuzzleCard {
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-
-.PuzzlePic {
-    display: flex;
-    position: relative;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
-}
-
-.PuzzleText {
-    float: left;
-    position: absolute;
-    bottom: 50px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.PuzzleText p:first-of-type {
-    font-size: 25px;
-}
-
-.RunCard {
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-
-.RunPic {
-    display: flex;
-    position: relative;
-    border: solid;
-    border-color: #51D6D6;
-    border-width: thick;
-}
-
-.RunText {
-    float: left;
-    position: absolute;
-    bottom: 50px;
-    background: var(--Blue);
-    color: var(--DrkGry);
-    padding: 1%;
-}
-
-.RunText p:first-of-type {
-    font-size: 25px;
+    width: 75%;
 }
 
 /* Contact Me Attributes*/
