@@ -138,7 +138,7 @@ a:visited {
     align-items: center;
 }
 
-/*First Row Picture*/
+/* Work Section */
 
 .SurfCard {
     display: flex;
@@ -158,6 +158,18 @@ a:visited {
     width: 75%;
 }
 
+.LEDCard {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.CalcCard {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
 #ThirdRow {
     display: flex;
     flex-direction: row;
@@ -165,6 +177,17 @@ a:visited {
     width: 75%;
 }
 
+.PuzzleCard {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.RunCard {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
 /* Contact Me Attributes*/
 
 .Contact {
