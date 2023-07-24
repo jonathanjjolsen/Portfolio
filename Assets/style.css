@@ -202,7 +202,8 @@ a:visited {
 
 .workPic{
     width: 100%;
-    /* object-fit: fill; */
+    height: 300px;
+    object-fit: cover;
     border: 5px solid #51D6D6;
 }
 
@@ -210,6 +211,17 @@ a:visited {
     position: absolute;
     background-color: #51D6D6;
     padding: 1%;
+}
+
+.anchorImage {
+    display: flex;
+    justify-content: center;
+
+}
+
+.anchor {
+    width: 100%;
+    object-fit: cover;
 }
 /* Contact Me Attributes*/
 
@@ -260,11 +272,11 @@ footer ul li a:visited {
 @media only screen and (max-width: 1874px) {
     #secondRow {
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     #ThirdRow {
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     #navUL {
         display: flex;
